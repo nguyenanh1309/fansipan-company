@@ -57,9 +57,14 @@
     min-width: auto;       /* Bỏ giới hạn min-width */
   }
 
+  
+  
   .banner.row {
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
     padding: 50px 0 ;
+    height: 500px;
   }
 
   .banner_content_img {
@@ -183,7 +188,10 @@
       display: none; /* ẩn chữ nếu muốn */
     }
 
-  
+    .banner {
+      height: 400px;
+    }
+
     .banner_content_img img {
       width: 100%;
     }
