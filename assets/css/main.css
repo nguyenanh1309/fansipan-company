@@ -237,7 +237,7 @@ header {
     align-items: center;
     position: relative;
     overflow: hidden;
-    justify-content: space-between;
+   margin-right: auto;
   }
 
 
@@ -256,7 +256,7 @@ header {
   }
   
   .text-content {
-    padding: 6%;
+    padding: 0 0 0 15%;
   }
   
   .mountain .img {
@@ -271,9 +271,9 @@ header {
 
   /* ====== BÊN PHẢI ====== */
   .about-img img {
-    width: 46vw;
-    height: 35vw;
-  }
+    width: 57vw;
+    height: 42vw;
+}
 
   /* vision-section */
 
